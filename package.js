@@ -1,18 +1,18 @@
 Package.describe({
-  name: 'cfs:upload-http',
-  version: '0.0.19',
-  summary: 'CollectionFS, HTTP File Upload',
-  git: 'https://github.com/CollectionFS/Meteor-cfs-upload-http.git'
+  name: 'gliese:cfs-upload-http',
+  version: '0.0.20',
+  summary: 'Gliese flavour of CollectionFS, HTTP File Upload (INTERNAL USE ONLY)',
+  git: 'https://github.com/gliesesoftware/cfs-upload-http.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'cfs:base-package@0.0.27',
-    'cfs:tempstore@0.1.3',
-    'cfs:file@0.1.15',
-    'cfs:access-point@0.1.43',
+    'gliese:cfs-base@0.0.28',
+    'gliese:cfs-tempstore@0.1.4',
+    'gliese:cfs-file@0.1.16',
+    'gliese:cfs-access-point@0.1.44',
     'cfs:power-queue@0.9.11',
     'cfs:reactive-list@0.0.9'
   ]);
