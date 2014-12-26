@@ -1,6 +1,6 @@
 Package.describe({
   name: 'gliese:cfs-upload-http',
-  version: '0.0.20',
+  version: '0.0.21',
   summary: 'Gliese flavour of CollectionFS, HTTP File Upload (INTERNAL USE ONLY)',
   git: 'https://github.com/gliesesoftware/cfs-upload-http.git'
 });
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
 
   api.use([
     'gliese:cfs-base@0.0.28',
-    'gliese:cfs-tempstore@0.1.4',
+    'gliese:cfs-tempstore@0.1.5',
     'gliese:cfs-file@0.1.16',
     'gliese:cfs-access-point@0.1.44',
     'cfs:power-queue@0.9.11',
